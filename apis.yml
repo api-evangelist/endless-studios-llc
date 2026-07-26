@@ -1,8 +1,28 @@
 aid: endless-studios-llc
+accessModel:
+  pricing: unknown
+  onboarding: approval
+  trial: false
+  try_now: false
+  public: false
+  label: Requires approval
+  confidence: medium
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/endless-studios-llc.png
 name: Endless Studios LLC
-description: Endless Studios LLC is a company surfaced as a portfolio company of 500-global and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Endless Studios LLC is a game development learning platform where aspiring creators
+  learn to build video games through real, pro-studio projects. Its Endstar game engine
+  lets creators code and collaborate in real time, while structured programs (Launchpad
+  for beginners, Capstone for advanced participants) pair learners with 30+ game-industry
+  mentors, expert playtesting, and collaborator matching across design, art, and
+  programming. Learners build portfolios of shipped games to show potential employers.
+  The company runs university, government, and partner programs (including a UAE national
+  game-making competition) and is a 500 Global portfolio company. It was added to the
+  API Evangelist network as a portfolio lead; no public developer/API surface was found
+  during enrichment (consumer/creator-facing product on the studio.endlessstudios.com app).
 url: https://raw.githubusercontent.com/api-evangelist/endless-studios-llc/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,9 +32,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Games
+- Game Development
+- Game Engine
+- Education
+- Learning
+- Game Design
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +48,18 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/endless-studios-llc-domain-security.yml
 - type: Website
   url: https://endlessstudios.com
+- type: TermsOfService
+  url: https://endlessstudios.com/terms-of-use
+- type: SignUp
+  url: https://studio.endlessstudios.com/studio/signup/
+- type: Login
+  url: https://studio.endlessstudios.com/studio/login/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
